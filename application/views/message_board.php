@@ -7,16 +7,26 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<title>Welcome to MessageBoard</title>
 	<meta content="width=device-width, initial-scale=1.0" name="viewport" >
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" rel="stylesheet" />
+    <link href="http://localhost/ci/assets/css/stylesheet.css'" type="text/css" rel="stylesheet"/> 
+
 </head>
 
 <body>
 
+	<div>
+		<div class="row inspiration-box">
+		  <div class="col-md-4">.col-md-4</div>
+		  <div class="col-md-4 inner-inspiration-box" >.col-md-4</div>
+		  <div class="col-md-4">.col-md-4</div>
+		</div>
+	</div>
+
 
 	<div>
-		<div class="row">
-		  <div class="col-md-4">.col-md-4</div>
-		  <div class="col-md-4">.col-md-4</div>
-		  <div class="col-md-4">.col-md-4</div>
+		<div class="row message-board">
+		  <div class="col-md-4">Hello</div>
+		  <div class="col-md-4">Email</div>
+		  <div class="col-md-4">Message</div>
 		</div>
 	</div>
 

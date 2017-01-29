@@ -23,8 +23,9 @@ class Message_board extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('header');
+		$this->load->view('templates/header');
 		$this->load->view('message_board');
+		$this->load->view('templates/footer');
 	}
 
 	public function create()
